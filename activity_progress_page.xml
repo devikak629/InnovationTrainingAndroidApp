@@ -12,28 +12,16 @@
     <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
         android:fitsSystemWindows="true">
 
-        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
-            android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay" android:orientation="horizontal"
-            tools:ignore="UselessParent">
-
-            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp" android:layout_height="wrap_content"
-                android:layout_weight="1" android:text="Next"
-                android:textAlignment="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/textView4"
-                android:layout_gravity="center_horizontal|top"
-                android:layout_marginTop="-430dp"
-                android:layout_marginLeft="100dp"
-                android:layout_weight="0.97" />
-
-        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:id="@+id/textView4"
+            android:layout_gravity="center|top"
+            android:textSize="45sp"
+            android:enabled="true"
+            android:textColor="#ffffff"
+            android:layout_marginTop="100dp" />
 
         <CalendarView
             android:layout_width="256dp"
@@ -41,7 +29,7 @@
             android:id="@+id/calendarView"
             android:layout_gravity="center"
             android:showWeekNumber="false"
-            android:layout_marginBottom="-20dp" />
+            android:layout_marginBottom="-75dp" />
 
     </FrameLayout>
 

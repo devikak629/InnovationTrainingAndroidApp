@@ -22,30 +22,41 @@
             android:background="@color/black_overlay" android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp" android:layout_height="wrap_content"
-                android:layout_weight="1" android:text="Menu" />
-
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <ImageView
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="FAQ"
-            android:id="@+id/textView9"
-            android:layout_gravity="center_horizontal|top"
-            android:textSize="45dp"
-            android:layout_marginTop="34dp" />
+            android:layout_width="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/logogreen"
+            android:background="#ffffff"
+            android:layout_marginTop="75dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="148dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="FAQ here ajnfkjasndjfansdjkfnasjkdnfakjsdnfkja"
-            android:id="@+id/textView10"
+        <ScrollView
+            android:layout_width="300dp"
+            android:layout_height="241dp"
+            android:id="@+id/scrollView2"
             android:layout_gravity="center"
-            android:textSize="18dp" />
+            android:background="#b6d7a8"
+            android:layout_marginTop="90dp"
+            android:fillViewport="false"
+            android:touchscreenBlocksFocus="false" >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:text="The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog. The quizk brown fox jumps over the lazy dog."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:maxLines="10"
+                android:scrollbars="vertical"
+                android:gravity="center_vertical"
+                android:textColor="#000000" />
+
+
+        </ScrollView>
 
     </FrameLayout>
 
