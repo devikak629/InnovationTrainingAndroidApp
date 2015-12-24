@@ -38,16 +38,18 @@
 
             <Button
                 android:id="@+id/topicNext"
-                android:layout_width="0dp"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Next"
                 android:background="#0072bc"
                 android:textColor="#ffffff"
                 android:textSize="30sp"
                 android:textStyle="normal"
                 android:enabled="true"
-                android:visibility="visible" />
+                android:visibility="visible"
+                android:layout_gravity="bottom"
+                android:clickable="true"
+                android:focusable="false" />
 
         </LinearLayout>
 
