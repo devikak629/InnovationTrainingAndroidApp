@@ -68,7 +68,7 @@
                 android:layout_column="16"
                 android:textSize="45sp"
                 android:layout_gravity="center_horizontal|top"
-                android:textColor="#073763"
+                android:textColor="#ffffff"
                 android:layout_marginTop="30dp"
                 android:visibility="visible" />
 
@@ -88,17 +88,18 @@
                 android:layout_marginBottom="30dp"
                 android:editable="false"
                 android:focusable="false"
-                android:textColor="#ffffff" />
+                android:textColor="#ffe135" />
 
             <ScrollView
                 android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_height="295dp"
                 android:id="@+id/scrollView3"
                 android:layout_row="2"
                 android:layout_column="16"
                 android:layout_gravity="center_horizontal|fill_vertical"
                 android:layout_marginTop="0dp"
-                android:visibility="visible">
+                android:visibility="visible"
+                android:paddingBottom="70dp">
 
                 <TableLayout
                     android:layout_width="match_parent"
@@ -111,7 +112,8 @@
                             android:layout_column="1"
                             android:text="1."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
@@ -129,7 +131,8 @@
                             android:layout_column="1"
                             android:text="2."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
@@ -147,7 +150,8 @@
                             android:layout_column="1"
                             android:text="3."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
@@ -165,7 +169,8 @@
                             android:layout_column="1"
                             android:text="4."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
@@ -183,7 +188,8 @@
                             android:layout_column="1"
                             android:text="5."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
@@ -201,14 +207,16 @@
                             android:layout_column="1"
                             android:text="6."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/idea6text"
-                            android:background="#ffffff" />
+                            android:background="#ffffff"
+                            android:textColor="#7B888C" />
 
                     </TableRow>
 
@@ -218,7 +226,8 @@
                             android:layout_column="1"
                             android:text="7."
                             android:padding="3dip"
-                            android:textColor="#7B888C" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
@@ -236,14 +245,16 @@
                             android:layout_column="1"
                             android:text="8."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/idea8text"
-                            android:background="#ffffff" />
+                            android:background="#ffffff"
+                            android:textColor="#7B888C" />
 
                     </TableRow>
 
@@ -253,14 +264,16 @@
                             android:layout_column="1"
                             android:text="9."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/idea9text"
-                            android:background="#ffffff" />
+                            android:background="#ffffff"
+                            android:textColor="#7B888C" />
 
                     </TableRow>
 
@@ -270,14 +283,16 @@
                             android:layout_column="1"
                             android:text="10."
                             android:padding="3dip"
-                            android:textColor="#004c98" />
+                            android:textColor="#073763"
+                            android:textStyle="bold" />
 
 
                         <EditText
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/idea10text"
-                            android:background="#ffffff" />
+                            android:background="#ffffff"
+                            android:textColor="#7B888C" />
 
                     </TableRow>
 
@@ -286,6 +301,17 @@
             </ScrollView>
 
         </GridLayout>
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/faqbutton2"
+            android:layout_gravity="left|top"
+            android:src="@drawable/faq_icon"
+            android:background="#7fc241"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp" />
     </FrameLayout>
 
 </FrameLayout>

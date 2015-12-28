@@ -23,7 +23,7 @@
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:gravity="center"
-            android:layout_marginTop="40dp" />
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:layout_gravity="center"
             android:textSize="60dp"
             android:gravity="center"
-            android:layout_marginTop="-50dp" />
+            android:layout_marginTop="-80dp" />
 
         <Button android:id="@+id/Next" style="?metaButtonBarButtonStyle"
             android:layout_width="match_parent" android:layout_height="wrap_content"
@@ -44,7 +44,8 @@
             android:textColor="#000000"
             android:textSize="30sp"
             android:layout_gravity="bottom"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            android:layout_marginTop="100dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,9 +56,20 @@
             android:enabled="true"
             android:textColor="#7fc241"
             android:textSize="30dp"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="140dp"
             android:textAlignment="center"
             android:singleLine="false" />
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/faqbutton3"
+            android:layout_gravity="left|top"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/faq_icon"
+            android:background="#0095da"
+            android:focusable="false" />
 
     </FrameLayout>
 
