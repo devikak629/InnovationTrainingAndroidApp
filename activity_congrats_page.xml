@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Inspirational Message!"
-            android:id="@+id/textView900"
+            android:id="@+id/InspirationalMessage"
             android:layout_gravity="center"
             android:textColor="#ff9900"
             android:textSize="31sp"
